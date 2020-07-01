@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Blowbrush FONT";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Blowbrush FONT"), url("blowbrush.ttf") format("ttf");
+}
+
+h1 {
+  font-family: "Blowbrush FONT";
+  font-weight: 200;
+  color: #0ccac4;
+}
