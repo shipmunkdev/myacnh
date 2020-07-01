@@ -1,68 +1,90 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0c5bbf3d-600e-4ef3-837c-e44edbbaee22/deploy-status)](https://app.netlify.com/sites/myacnh/deploys)
 
-## Available Scripts
+![Project Image](./cover_img.png)
 
-In the project directory, you can run:
+---
 
-### `yarn start`
+### Table of Contents
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Description](#description)
+- [How To Use](#how-to-use)
+- [References](#references)
+- [License](#license)
+- [Author Info](#author-info)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+---
 
-### `yarn test`
+## Description
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Creating a React web application that enables user to search the corresponding ACNH villagers from the provided keywords from Seach Box.
 
-### `yarn build`
+This repository explores the React boilerplate, pure function and class components, ECMAScript 6 (ES6) and fetch API while utilizing the fundamental React concepts on state, props, onChange, and component lifecycle.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Technologies
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- ReactJS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Back To The Top](#read-me-template)
 
-### `yarn eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Contribution
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+We are always looking for eager developer to implement new features and smash bugs for our web application. Please reach out to repo admin at contact@seintun.dev
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### Installation
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+    $ npm install
+    $ npm start
+```
 
-## Learn More
+#### API Reference
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Data Spreadsheet for Animal Crossing New Horizons](https://docs.google.com/spreadsheets/d/13d_LAJPlxMa_DubPTuirkIV4DERBMXbrWQsmSh8ReK4)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[Back To The Top](#read-me-template)
 
-### Code Splitting
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## References
 
-### Analyzing the Bundle Size
+[Back To The Top](#read-me-template)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+---
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+myACNH.online is a fan-made website and is in no way affiliated with Nintendo
 
-### Advanced Configuration
+MIT License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+Copyright (c) [2020][sein tun]
 
-### Deployment
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-### `yarn build` fails to minify
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[Back To The Top](#read-me-template)
+
+---
+
+## Author Info
+
+- LinkedIn - [Sein Tun](https://www.linkedin.com/in/seintun/)
+
+[Back To The Top](#read-me-template)
