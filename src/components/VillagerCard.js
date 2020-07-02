@@ -111,7 +111,7 @@ export default function VillagerCard({ id, name, species, birthday, personality,
                         <b>Attributes</b>
                     </Typography>
                     <Typography paragraph>
-                        <b>Type: </b> {species}
+                        <b>Species: </b> {species}
                     </Typography>
                     <Typography paragraph>
                         <b>Birthdate: </b> {monthNames[birthday_month - 1]} {birthday_day}

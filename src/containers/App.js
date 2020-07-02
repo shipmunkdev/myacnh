@@ -25,8 +25,11 @@ class App extends Component {
 
     render() {
         const { villagers, searchField } = this.state;
+        const lowCaseSearch = searchField.toLowerCase();
+
         const filteredvillagers = villagers.filter(villager => {
-            return villager.name.toLowerCase().includes(searchField.toLowerCase());
+            return Object.values(villager).some(val =>
+                String(val).toLowerCase().includes(lowCaseSearch));
         });
 
         return !villagers.length
