@@ -15,6 +15,7 @@ import { blue } from '@material-ui/core/colors';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
+import zodiacSign from 'get-zodiac-sign';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -44,6 +45,13 @@ const useStyles = makeStyles((theme) => ({
 export default function VillagerCard({ id, name, species, birthday, personality, colors, favoriteSaying, iconImage, photoImage }) {
     const classes = useStyles();
     const [expanded, setExpanded] = React.useState(false);
+
+    const monthNames = ["January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"];
+    const birthday_mmdd = birthday.split("/");
+    const birthday_month = Number(birthday_mmdd[0]);
+    const birthday_day = Number(birthday_mmdd[1]);
+    const zodiac = zodiacSign(birthday_month, birthday_day);
 
     const handleExpandClick = () => {
         setExpanded(!expanded);
@@ -104,6 +112,12 @@ export default function VillagerCard({ id, name, species, birthday, personality,
                     </Typography>
                     <Typography paragraph>
                         <b>Type: </b> {species}
+                    </Typography>
+                    <Typography paragraph>
+                        <b>Birthdate: </b> {monthNames[birthday_month - 1]} {birthday_day}
+                    </Typography>
+                    <Typography paragraph>
+                        <b>Zodiac Sign: </b> {zodiac}
                     </Typography>
                     <Typography paragraph>
                         <b>Favorite Colors: </b> {colors[0]} & {colors[1]}

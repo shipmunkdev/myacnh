@@ -30,6 +30,7 @@ export default function VillagersList({ villagers }) {
                                     id={villager.uniqueEntryId}
                                     name={villager.name}
                                     species={villager.species}
+                                    birthday={villager.birthday}
                                     personality={villager.personality}
                                     colors={villager.colors}
                                     favoriteSaying={villager.favoriteSaying}
